@@ -1,3 +1,10 @@
+	<?php
+
+require "./data/index.php";
+$data = data(array("act" => "index"));
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,13 +19,6 @@
 <link rel="stylesheet" type="text/css" href="./static_qq/css/jquery.mobile.min.css">
 <link rel="stylesheet" type="text/css" href="./static_qq/css/common.css">
 </head>
-	
-	<?php
-
-require "./data/index.php";
-$data = data(array("act" => "index"));
-
-?>
 
 <body class="body">
 
